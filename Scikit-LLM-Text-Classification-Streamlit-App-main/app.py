@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv('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')
-ORGANIZATION_NAME = os.getenv('org-CMGb3a7ap7zjJU1oUdoYN4Rk')
+OPENAI_API_KEY = os.getenv('')
+ORGANIZATION_NAME = os.getenv('')
 
 SKLLMConfig.set_openai_org(ORGANIZATION_NAME)
 SKLLMConfig.set_openai_key(OPENAI_API_KEY)
